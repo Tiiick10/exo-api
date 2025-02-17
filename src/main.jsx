@@ -5,7 +5,7 @@ import App from "./App";
 import Details from "./components/Details";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Router>
+  <Router basename="/exo-api">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/post/:id" element={<Details />} />
